@@ -9,13 +9,15 @@
 }
 .header{
   background-image: url('../Assets/Hero-bg.png');
-  height: 698px;
+  height: 100vh;
+  width: 1440px;
+  padding: 2rem 5%;
 }
 nav{
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin: 0 150px;
+  align-items: center;
+  width: 100%;
 }
 
 nav ul li{
@@ -30,11 +32,111 @@ nav ul li{
   border: none;
   border-radius: 10px;
 }
-
-.banner-text{
-  justify-content: center;
-  font-size: 65px;
-  font-weight: 700;
-  width: 905px;
-  margin: 309px 267px 152px 267px;
+.banner-content{
+   min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5%;
 }
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #2c3e50; /* Dark text color */
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+.container{
+  width: 1140px ;
+  height: 328px;
+  background-color: #FFFFFF;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:40px 40px 20px 40px;
+  
+
+}
+.text-content {
+  flex: 1;
+  padding: 0 140px;
+}
+
+.text-content h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  color: #666;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn-free{
+  padding: 12px 36px;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+#mini{
+  width: 403px;
+  border-radius: 24px;
+
+}
+.form{
+  display: flex;
+  gap: 50px;
+  padding: 0 150px;
+  width: 1140px;
+  height: 632px;
+  align-items: center;
+}
+.left{
+  font-size: 97px;
+  font-weight: 700;
+  color: #000;
+}
+.right {
+  flex: 1;
+}
+.label {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #333;
+}
+.input{
+  width: 497px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+}
+.btn-touch{
+  padding: 19px 201px;
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-touch:hover {
+  background-color: #cac5fd;
+}
+
+
