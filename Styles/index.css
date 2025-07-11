@@ -14,6 +14,7 @@ body{
 }
 .header{
   background-image:url('../Assets/Hero-bg.png');
+  height: 698px;
 }
 button{
     border: none;
@@ -63,7 +64,7 @@ nav{
     justify-content: center;
 }
 .baner h1{
-    margin-top: 100px;
+    margin-top: 200px;
     font-size: 40px;
     width: 500px;
 }
@@ -79,6 +80,8 @@ nav{
 .act{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .action{
     width: 1140px;
@@ -91,51 +94,66 @@ nav{
     display: flex;
     gap: 110px;
 }
+.ac-head{
+  flex: 1;
+}
 .ac-head p{
     font-size: 14 px;
     color:gray ;
+    margin: 40px 0;
 }
 .btn3{
     padding: 10px 20px;
 }
-.ac-img{
-    height: 170px;
-    width: 180px;
-    border-radius: 20%;
+.action-img img{
+  border-radius: 20px;
+}
+.ac-img img{
+    height: 328px;
+    width: 403px;
 }
 
-.flo{
+.productive{
+    background-color:#e8e7f6;
+    border-radius: 24px;
+    width: 80%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 100px auto 100px auto;
+    padding: 50px 80px;
 }
-.follower{
-    width: 1140px;
-    background-color: #e5e7ff;
-    border-radius: 15px;
-    text-align: center;
-    padding: 20px 30px;
-    margin: 0px 50px;
-
+.productive-title h1{
+    color: #252432;
+    font-size: 38px;
+    margin: 30px;
 }
-.user-main{
+.stats-box{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
-.user h1{
+
+.stat h3{
     color: #4E47FF;
-    font-size: 50px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
 }
-.user p{
-    font-size: 12px;
-    color: grey;
-}/-----card section-----/
+.stat p{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .cd-main{
+  width: 1140px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 100px;
+    margin-left: 50px;
 }
 .card-nain{
     width: 1140px;
@@ -196,7 +214,7 @@ nav{
     background-color: rgb(227, 239, 255);
     transition: 0.5s;
 }
-/-----focus section----/
+
 .fc-main{
     display: flex;
     justify-content: center;
@@ -231,16 +249,28 @@ nav{
     width: 840px;
     border-radius: 20px;
 }
-/----form section---/
+
 .frm-main{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .form-sec{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
+    align-items: center;
     width: 1140px;
     padding: 50px 20px;
+}
+.form-head{
+   max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    padding: 70px 0;
 }
 .form input{
     margin: 5px;
@@ -248,19 +278,22 @@ nav{
 .form-head h1{
     font-size: 50px;
 }
+.form label{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
 .in-item{
-    height: 35px;
-    border: none;
-    width: 250px;
-    margin: 0px;
-    border-radius: 5px;
+   width:350px;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #757575;
+  background-color: #fff;
+  margin: 10px 0;
 }
-.in-item2{
-    height: 80px;
-    border: none;
-    width: 255px;
-    border-radius: 5px;
-}
+
 .form-btn{
     height: 35px;
     width: 255px;
@@ -272,7 +305,7 @@ a{
 textarea{
     resize: none;
 }
-/-------foooter section/
+
 
 .foot-main{
     display: flex;
